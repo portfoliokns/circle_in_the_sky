@@ -36,7 +36,7 @@ gfortran -fopenmp -I/usr/local/lib/Healpix_3.20/include cmb_output.f90 -o ./map.
 # cmb_cits_1.f90
 向き合う同士の温度揺らぎの相関を取るためのモジュール関数。
 - これを実行すると、cmb_cits_2.f90、cmb_cits_3.f90も同時に実行されます。
-- より詳細な情報は、現在、準備中。
+- より詳細な情報は、お問い合わせください。
 
 # cmb_cits_2.f90
 極座標(θ,φ)に対するランダムな値を取得するためのモジュール関数。
@@ -54,7 +54,7 @@ gfortran -fopenmp -I/usr/local/lib/Healpix_3.20/include cmb_output.f90 -o ./map.
 CMBの揺らぎの解像度（ピクセルの大きさや数）を変更するためのプログラム。<br>
 - mapfitsの部分で、対象とするデータの解像度を変えることができます。
 - 解像度を変更したデータをもとに、cmb_cits_main.f90で解析をかけることで、解像度に応じた結果を得られます。
-- より詳細な情報は、現在、準備中。
+- より詳細な情報は、お問い合わせください。
 
 # OpenACCについて
 OpenACCを適応したソースコードも持っていますが、都合上、GitHubへ公開・保管していません。
